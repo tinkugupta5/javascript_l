@@ -1,0 +1,94 @@
+Array Questions : 
+JavaScript interview questions
+
+1. Write a function that reverses an array.
+2. Write a function that removes duplicates from an array.
+3. Write a function that finds the intersection of two arrays.
+4. Write a function that finds the union of two arrays.
+5. Write a function that flattens a nested array.
+6. Write a function that merges two sorted arrays into one sorted array.
+7. Write a function that finds the second largest number in an array.
+8. Write a function that finds the most frequent element in an array.
+9. Write a function that shuffles an array.
+10. Write a function that rotates an array to the left by a given number of steps.
+11. Write a function that rotates an array to the right by a given number of steps.
+12. Write a function that finds the maximum difference between any two elements in an array.
+13. Write a function that finds the longest increasing subsequence in an array.
+14. Write a function that finds the median of an array of numbers.
+15. Write a function that finds the mode of an array of numbers.
+16. Write a function that sorts an array of numbers in ascending order.
+17. Write a function that sorts an array of numbers in descending order.
+18. Write a function that finds the sum of all numbers in an array.
+19. Write a function that finds the product of all numbers in an array.
+20. Write a function that finds the average of all numbers in an array.
+21. Write a function that checks if an array is sorted in ascending order.
+22. Write a function that checks if an array is sorted in descending order.
+23. Write a function that finds the smallest number in an array.
+24. Write a function that finds the largest number in an array.
+25. Write a function that finds the difference between the largest and smallest numbers in an array.
+26. Write a function that finds the index of a given element in an array.
+27. Write a function that removes a given element from an array.
+28. Write a function that inserts a given element at a specific index in an array.
+29. Write a function that splits an array into chunks of a given size.
+30. Write a function that concatenates two arrays.
+31. Write a function that finds the common elements between two arrays.
+32. Write a function that finds the elements that are in one array but not in another.
+33. Write a function that finds the symmetric difference between two arrays.
+34. Write a function that finds the first non-repeating element in an array.
+35. Write a function that finds the first repeating element in an array.
+36. Write a function that removes all falsy values from an array.
+37. Write a function that creates an array of a given length with all elements initialized to a specific value.
+38. Write a function that creates an array of numbers within a given range.
+39. Write a function that finds the longest contiguous subarray with a given sum.
+40. Write a function that finds the maximum sum of a contiguous subarray.
+
+These questions cover a wide range of array-related topics and difficulty levels, providing a comprehensive set of challenges for practicing JavaScript array manipulation and logical problem-solving.
+
+
+
+
+
+
+
+1. Write a function that reverses a string.
+2. Write a function that checks if a string is a palindrome.
+3. Write a function that finds the factorial of a number.
+4. Write a function that returns the Fibonacci sequence up to a given number.
+5. Write a function that checks if a number is prime.
+6. Write a function that finds the greatest common divisor (GCD) of two numbers.
+7. Write a function that finds the least common multiple (LCM) of two numbers.
+8. Write a function that sorts an array of numbers in ascending order.
+9. Write a function that removes duplicates from an array.
+10. Write a function that finds the intersection of two arrays.
+11. Write a function that finds the union of two arrays.
+12. Write a function that flattens a nested array.
+13. Write a function that merges two sorted arrays into one sorted array.
+14. Write a function that finds the longest word in a string.
+15. Write a function that capitalizes the first letter of each word in a string.
+16. Write a function that counts the number of vowels in a string.
+17. Write a function that checks if a string contains only digits.
+18. Write a function that converts a string to an array of words.
+19. Write a function that finds the second largest number in an array.
+20. Write a function that finds the most frequent element in an array.
+21. Write a function that checks if two strings are anagrams.
+22. Write a function that generates a random string of a given length.
+23. Write a function that checks if a given year is a leap year.
+24. Write a function that converts a number to its binary representation.
+25. Write a function that converts a binary number to its decimal representation.
+26. Write a function that finds the sum of all numbers in an array.
+27. Write a function that finds the product of all numbers in an array.
+28. Write a function that finds the average of all numbers in an array.
+29. Write a function that finds the median of an array of numbers.
+30. Write a function that finds the mode of an array of numbers.
+31. Write a function that shuffles an array.
+32. Write a function that rotates an array to the left by a given number of steps.
+33. Write a function that rotates an array to the right by a given number of steps.
+34. Write a function that finds the maximum difference between any two elements in an array.
+35. Write a function that finds the longest increasing subsequence in an array.
+36. Write a function that finds the longest common prefix among an array of strings.
+37. Write a function that checks if a string is a valid email address.
+38. Write a function that checks if a string is a valid URL.
+39. Write a function that checks if a string is a valid IP address.
+40. Write a function that implements a basic calculator (addition, subtraction, multiplication, division).
+
+These questions cover a wide range of topics and difficulty levels, providing a comprehensive set of challenges for practicing JavaScript functions and logical problem-solving.
