@@ -6,13 +6,13 @@ function sortArray(arr) {
                 let temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
-            }
+            } 
         }
     }
     return arr;
 }
 
-// Test case
+
 const unsortedArray = [5, 3, 8, 1, 2];
 const sortedArray = sortArray(unsortedArray);
-console.log(sortedArray); // Output: [1, 2, 3, 5, 8]
+console.log(sortedArray); 
