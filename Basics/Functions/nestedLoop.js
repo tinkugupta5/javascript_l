@@ -11,5 +11,5 @@ function printNumberPattern(rows) {
 }
 
  
-printNumberPattern(5);
+printNumberPattern(3);
 
