@@ -11,7 +11,7 @@ function removeDuplicate(arr) {
         if (!isDuplicate) {
             uniqueArr.push(arr[i]);
         }
-    }
+    } 
     return uniqueArr;
 }
 const originalArray = [1, 2, 3, 4, 4, 5];
