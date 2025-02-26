@@ -2,9 +2,9 @@ Array Questions :
 JavaScript interview questions
 0. Write a function that sort an array ✅
 1. Write a function that reverses an array ✅
-2. Write a function that removes duplicates from an array.
-3. Write a function that finds the intersection of two arrays.
-4. Write a function that finds the union of two arrays.
+2. Write a function that removes duplicates from an array.✅
+3. Write a function that finds the intersection of two arrays.✅
+4. Write a function that finds the union of two arrays.✅
 5. Write a function that flattens a nested array.
 6. Write a function that merges two sorted arrays into one sorted array.
 7. Write a function that finds the second largest number in an array.
