@@ -7,7 +7,6 @@ function countVowels(str) {
             count++;
         }
     }
-
     return count;
 }
 
