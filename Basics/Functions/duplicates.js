@@ -10,4 +10,4 @@ function removeDuplicate(arr) {
   
   const originalArray = [1, 2, 3, 4, 4, 5];
   const removedDuplicate = removeDuplicate(originalArray);
-  console.log(removedDuplicate); // Output: [1, 2, 3, 4, 5]
+  console.log(removedDuplicate); //Output: [1, 2, 3, 4, 5]
