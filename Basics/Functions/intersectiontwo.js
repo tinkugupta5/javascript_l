@@ -1,10 +1,8 @@
 function findIntersection(arr1, arr2) {
     const set1 = new Set(arr1);
     console.log(set1);
-
     const set2 = new Set(arr2);
     console.log(set2);
-
     return [...set1].filter(value => set2.has(value));
 }
 
