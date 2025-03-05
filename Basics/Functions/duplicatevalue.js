@@ -24,4 +24,5 @@ function findDuplicates(arr) {
 }
 
 const arr = [1, 2, 3, 4, 2, 3, 5, 6, 1];
-console.log(findDuplicates(arr)); // Output: [1, 2, 3]
+console.log(findDuplicates(arr)); 
+// Output: [1, 2, 3]
