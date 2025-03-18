@@ -11,10 +11,9 @@ function secondLargest(arr) {
             second = num;
         }
     }
-
     return second === -Infinity ? null : second;
 }
 
-console.log(secondLargest([10, 20, 4, 45, 99])); // Output: 45
-console.log(secondLargest([5, 5, 5, 5])); // Output: null
-console.log(secondLargest([3])); // Output: null
+console.log(secondLargest([10, 20, 4, 45, 99])); 
+console.log(secondLargest([5, 5, 5, 5])); 
+console.log(secondLargest([3])); 
