@@ -18,6 +18,5 @@ function findMostFrequentElement(arr) {
     return mostFrequentElement;
 }
 
-// Example usage:
 const array = [1, 3, 2, 3, 4, 1, 3, 2, 1, 1];
 console.log(findMostFrequentElement(array)); // Output: 1
