@@ -3,12 +3,12 @@ function findMostFrequentElement(arr) {
     let maxCount = 0;
     let mostFrequentElement = null;
 
-    // Use a for loop to count the frequency of each element
+   
     for (let i = 0; i < arr.length; i++) {
         const element = arr[i];
         frequencyMap[element] = (frequencyMap[element] || 0) + 1;
 
-        // Update the most frequent element if the current count is greater
+        
         if (frequencyMap[element] > maxCount) {
             maxCount = frequencyMap[element];
             mostFrequentElement = element;
