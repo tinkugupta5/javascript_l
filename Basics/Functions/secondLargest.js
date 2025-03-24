@@ -10,7 +10,7 @@ function secondLargest(arr) {
         } else if (num > second && num !== first) {
             second = num;
         }
-    }
+    }      
     return second === -Infinity ? null : second;
 }
 
