@@ -10,7 +10,6 @@ function sortArray(arr) {
     }
     return arr;
 }
-
 const unsortedArray = [5, 3, 8, 1, 2];
 const sortedArray = sortArray(unsortedArray);
 console.log(sortedArray); 
