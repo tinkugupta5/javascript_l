@@ -1,8 +1,6 @@
 function secondLargest(arr) {
     if (arr.length < 2) return null;
-
     let first = -Infinity, second = -Infinity;
-
     for (let num of arr) {
         if (num > first) {
             second = first;
