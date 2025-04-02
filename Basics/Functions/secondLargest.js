@@ -15,8 +15,6 @@ function secondLargest(arr) {
 console.log(secondLargest([10, 20, 4, 45, 99])); 
 console.log(secondLargest([5, 5, 5, 5])); 
 console.log(secondLargest([3])); 
-
-
 // for adobe 
 
 // tech stack round 
