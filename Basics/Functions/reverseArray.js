@@ -4,7 +4,6 @@ const reverseArray = (arr) => {
         reversedArr.push(arr[i]);
     }
     return reversedArr;
-    
 }
 const originalArray = [1, 2, 3, 4, 5];
 const reversedArray = reverseArray(originalArray);
