@@ -2,13 +2,9 @@ function findMostFrequentElement(arr) {
     const frequencyMap = {};
     let maxCount = 0;
     let mostFrequentElement = null;
-
-   
     for (let i = 0; i < arr.length; i++) {
         const element = arr[i];
         frequencyMap[element] = (frequencyMap[element] || 0) + 1;
-
-        
         if (frequencyMap[element] > maxCount) {
             maxCount = frequencyMap[element];
             mostFrequentElement = element;
