@@ -10,7 +10,6 @@ function findMostFrequentElement(arr) {
             mostFrequentElement = element;
         }
     }
-
     return mostFrequentElement;
 }
 
