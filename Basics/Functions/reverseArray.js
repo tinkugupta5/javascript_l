@@ -10,3 +10,7 @@ const reversedArray = reverseArray(originalArray);
 console.log(reversedArray); 
 
 
+
+
+
+
