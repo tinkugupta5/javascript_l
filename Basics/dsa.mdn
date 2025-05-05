@@ -1,0 +1,61 @@
+Here's a list of commonly used **Data Structures**, grouped into categories:
+
+---
+
+### 🔹 **Linear Data Structures**
+
+1. **Array**
+2. **Linked List**
+
+   * Singly Linked List
+   * Doubly Linked List
+   * Circular Linked List
+3. **Stack**
+4. **Queue**
+
+   * Simple Queue
+   * Circular Queue
+   * Priority Queue
+   * Deque (Double-ended Queue)
+
+---
+
+### 🔹 **Non-Linear Data Structures**
+
+1. **Tree**
+
+   * Binary Tree
+   * Binary Search Tree (BST)
+   * AVL Tree
+   * Red-Black Tree
+   * Segment Tree
+   * B-tree / B+ Tree
+   * Trie (Prefix Tree)
+   * Heap (Min-Heap / Max-Heap)
+2. **Graph**
+
+   * Directed / Undirected
+   * Weighted / Unweighted
+   * Represented by Adjacency Matrix / Adjacency List
+
+---
+
+### 🔹 **Hash-based Structures**
+
+1. **Hash Table**
+2. **Hash Map**
+3. **Hash Set**
+
+---
+
+### 🔹 **Specialized / Advanced Structures**
+
+1. **Disjoint Set (Union-Find)**
+2. **Fenwick Tree (Binary Indexed Tree)**
+3. **Suffix Array / Tree**
+4. **Skip List**
+5. **Bloom Filter**
+
+---
+
+Would you like explanations or code examples for any of these?
