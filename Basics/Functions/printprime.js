@@ -9,18 +9,15 @@ function isPrime(n) {
   function getNextPrimes(start, count) {
     const primes = [];
     let num = start;
-  
     while (primes.length < count) {
       if (isPrime(num)) {
         primes.push(num);
       }
       num++;
     }
-  
     return primes;
   }
   
-
   const startFrom = 13;
   const result = getNextPrimes(startFrom,5);
   console.log(result); // Output: [13, 17, 19, 23, 29]
