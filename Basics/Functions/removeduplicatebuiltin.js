@@ -7,7 +7,6 @@ console.log(uArr);
 let uArr1 = [... new Set(arr)];
 console.log(uArr1)
 
-
 // arr.filter((v,i)=>{
 
 //     console.log(v+"_"+arr.indexOf(v)+"_"+i)
