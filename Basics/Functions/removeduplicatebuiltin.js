@@ -4,8 +4,6 @@ let uArr = arr.filter((v,i)=>{
 })
 
 console.log(uArr);
-
-
 let uArr1 = [... new Set(arr)];
 console.log(uArr1)
 
