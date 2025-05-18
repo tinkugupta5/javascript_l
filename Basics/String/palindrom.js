@@ -7,7 +7,7 @@ function getReversedString(str) {
 }
 
 function isPalindrome(str) {
-     console.time("Palindrome Check Time"); // Start timing
+     console.time("Palindrome Check Time"); 
     let reversed = getReversedString(str);
 
     if (reversed === str) {
