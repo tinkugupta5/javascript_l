@@ -1,15 +1,11 @@
-function printNumberPattern(rows) {
-    for (let i = 1; i <= rows; i++) {
-        let row = '';
-        for (let j = 1; j <= i; j++) {
-            
-            row = row + j + ' ';
-        }
+// function printStarPattern(n) {
+//     for (let i = 0; i < n; i++) {
+//         let row = '';
+//         for (let j = 0; j < n; j++) {
+//             row += '* ';
+//         }
+//         console.log(row.trim());
+//     }
+// }
 
-        console.log(row);
-    }
-}
-
- 
-printNumberPattern(3);
-
+// printStarPattern(6);

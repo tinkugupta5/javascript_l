@@ -7,15 +7,14 @@ function getReversedString(str) {
 }
 
 function isPalindrome(str) {
-     console.time("Palindrome Check Time"); 
+    console.time("Palindrome Check Time");
     let reversed = getReversedString(str);
-
     if (reversed === str) {
         console.log("Yes, it is a palindrome");
     } else {
         console.log("No, it is not a palindrome");
     }
-        console.timeEnd("Palindrome Check Time"); 
+    console.timeEnd("Palindrome Check Time");
 }
 
 
