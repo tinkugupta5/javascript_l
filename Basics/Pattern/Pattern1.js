@@ -1,4 +1,3 @@
-
 function reverseArray(arr) {
     let reversedfull = [];
     for (let i = arr.length - 1; i >= 0; i--) {
