@@ -67,7 +67,7 @@ This repository/document contains a comprehensive list of interview questions co
 59. Find function in javascript.
 60. What is Automatic Semicolon insertion?
 61. What is Object-Oriented Programming (OOP) Principles in JS.
-62. What is shadoing in javascript
+62. What is shadoing in javascript ?
 
 ---
 
