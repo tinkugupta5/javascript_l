@@ -80,7 +80,7 @@ This repository/document contains a comprehensive list of interview questions co
 5.  What is webpack, duplicity and how is it used in reactjs?
 6.  What is Babel and why is it used?
 7.  How does routing work in react?
-8.  How to optimize react by memo and virtualization host?
+8.  How to optimize react by memo and virtu alization host?
 9.  How would you approach creating a web app with user manipulation?
 10. What is a spa and how is it used in react project?
 11. Explain how to use react-router in web?
