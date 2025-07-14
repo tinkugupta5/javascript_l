@@ -7,6 +7,5 @@ function sumArray(arr) {
     return sum;
 }
 
-// Example usage:
 const numbers = [1, 2, 3, 4, 5];
 console.log(sumArray(numbers)); // Output:
