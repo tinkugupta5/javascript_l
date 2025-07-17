@@ -1,4 +1,3 @@
-// Finds the sum of all numbers in an array without using built-in methods
 function sumArray(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
@@ -8,4 +7,4 @@ function sumArray(arr) {
 }
 
 const numbers = [1, 2, 3, 4, 5];
-console.log(sumArray(numbers)); // Output:
+console.log(sumArray(numbers)); // Output: 15
