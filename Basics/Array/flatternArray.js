@@ -1,7 +1,6 @@
 
 function flatternArray(arr) {
     let emptyArray = [];
-
     for (let i = 0; i < arr.length; i++) {
         if (Array.isArray(arr[i])) {
             emptyArray = emptyArray.concat(flatternArray(arr[i]))
