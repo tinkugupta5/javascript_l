@@ -7,7 +7,6 @@ function removeDuplicate(arr) {
     }
     return uniqueArr;
   }
-  
   const originalArray = [1, 2, 3, 4, 4, ]
   const removedDuplicate = removeDuplicate(originalArray);
   console.log(removedDuplicate); 
