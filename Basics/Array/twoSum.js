@@ -9,7 +9,6 @@ function twoSumfn(arr, target) {
   return [];
 }
 
-
 const originalArray = [2,8,11,15];
 const target = 9;
 const twoSumAns = twoSumfn(originalArray,target)
