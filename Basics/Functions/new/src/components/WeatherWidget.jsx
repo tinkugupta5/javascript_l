@@ -8,11 +8,13 @@ import useWeather from '../hooks/useWeather'
 import useGeolocation from '../hooks/useGeolocation'
 
 const WeatherWidget = () => {
-  const [unit, setUnit] = useState('metric') // 'metric' or 'imperial'
+  const [unit, setUnit] = useState('metric')
   const [searchQuery, setSearchQuery] = useState('')
   const { location, error: geoError } = useGeolocation()
   const { weatherData, forecastData, loading, error } = useWeather(
-    searchQuery || (location ? `${location.latitude},${location.longitude}` : null),
+    searchQuery || (location ? 
+      (location.latitude ? `${location.latitude},${location.longitude}` : location.defaultCity) 
+      : 'Kolkata'),
     unit
   )
 
@@ -22,6 +24,13 @@ const WeatherWidget = () => {
 
   const toggleUnit = () => {
     setUnit(unit === 'metric' ? 'imperial' : 'metric')
+  }
+
+  const getLocationName = () => {
+    if (searchQuery) return searchQuery
+    if (location?.cityName) return location.cityName
+    if (location?.defaultCity) return location.defaultCity
+    return 'Kolkata'
   }
 
   return (
@@ -37,8 +46,8 @@ const WeatherWidget = () => {
       aria-label="Weather Widget"
     >
       {geoError && (
-        <Alert severity="error" sx={{ mb: 2 }}>
-          Error getting your location: {geoError}
+        <Alert severity="info" sx={{ mb: 2 }}>
+          Using default location (Kolkata). {geoError}
         </Alert>
       )}
       
@@ -69,7 +78,7 @@ const WeatherWidget = () => {
             <WeatherHeader 
               weatherData={weatherData} 
               unit={unit} 
-              location={searchQuery || (location ? 'Your Location' : '')}
+              location={getLocationName()}
             />
           )}
           {forecastData && <WeatherForecast forecastData={forecastData} unit={unit} />}
