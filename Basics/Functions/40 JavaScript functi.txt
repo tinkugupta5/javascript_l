@@ -42,13 +42,7 @@ JavaScript interview questions
 39. Write a function that finds the longest contiguous subarray with a given sum.
 40. Write a function that finds the maximum sum of a contiguous subarray.
 
-These questions cover a wide range of array-related topics and difficulty levels, providing a comprehensive set of challenges for practicing JavaScript array manipulation and logical problem-solving.
-
-
-
-
-
-
+==============
 
 1. Write a function that reverses a string.
 2. Write a function that checks if a string is a palindrome.
