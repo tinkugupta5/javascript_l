@@ -11,7 +11,6 @@ function countVowels(str) {
     }
     return count;
 }
-const inputString = "tttt";
+const inputString = "Tinku";
 const vowelCount = countVowels(inputString);
 console.log(vowelCount); 
-// Output: 3
