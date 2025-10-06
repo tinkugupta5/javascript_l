@@ -15,5 +15,4 @@ const inputString = "Tinku";
 const vowelCount = countVowels(inputString);
 console.log(vowelCount); 
 
-
-con
+  
