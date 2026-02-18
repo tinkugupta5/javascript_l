@@ -7,4 +7,4 @@ function sumArray(arr) {
 }
 
 const numbers = [1, 2, 3, 4, 5];
-console.log(sumArray(numbers)); // Output: 15
+console.log(sumArray(numbers)); 
