@@ -1,4 +1,4 @@
-let num = 2 ;
+let num ;
 if(num % 2 == 0)
 {
     console.log("even")
