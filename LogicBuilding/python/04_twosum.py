@@ -8,7 +8,6 @@ def two_sum(nums, target):
             if num1 + num2 == target:
                 return [i, j]
             j += 1
-        
         i += 1
             
 nums = [2, 7, 11, 15]
