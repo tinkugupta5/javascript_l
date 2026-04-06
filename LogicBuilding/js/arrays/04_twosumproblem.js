@@ -10,6 +10,6 @@ function twoSumfn(arr, target) {
 }
 
 const originalArray = [2, 8, 11, 15];
-const target = 18;
+const target = 26;
 const twoSumAns = twoSumfn(originalArray, target);
 console.log("Brute force result:", twoSumAns); 
