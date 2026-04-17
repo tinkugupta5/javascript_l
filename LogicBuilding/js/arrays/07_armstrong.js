@@ -13,7 +13,6 @@ function isArmstrong(num) {
     return sum === num;
 }
 
-// Example usage
 let number = 153;
 console.log(`${number} is an Armstrong number: ${isArmstrong(number)}`);
 
