@@ -14,6 +14,7 @@ function isArmstrong(num) {
 }
 
 let number = 153;
+
 console.log(`${number} is an Armstrong number: ${isArmstrong(number)}`);
 
 // Test with another number
